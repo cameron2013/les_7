@@ -19,6 +19,7 @@ class Matrix():
                 self.vert.append(self.horiz)
                 self.horiz = []
                 n += 1
+            del i, j, n, self.horiz
         else:
             print("Неверные данные")
 
