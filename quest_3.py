@@ -23,7 +23,7 @@ class Cell:
 
     def make_order(self, number):
         s = ""
-        for i in range(1, self.cell+1):
+        for i in range(1, self.cell + 1):
             s = s + "*"
             if i % number == 0:
                 s = s + "\n"
